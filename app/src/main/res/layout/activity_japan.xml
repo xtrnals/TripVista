@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Japan">
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/app_bg2" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="-4dp"
+            android:layout_marginBottom="614dp"
+            android:text="Recommended places for you in Japan!"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.12" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="158dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="439dp"
+            android:background="@drawable/border">
+
+            <Button
+                android:backgroundTint="#aa9a85"
+                android:id="@+id/jp1"
+                android:layout_width="129dp"
+                android:layout_height="37dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="158dp"
+                android:layout_marginTop="77dp"
+                android:layout_marginEnd="54dp"
+                android:layout_marginBottom="20dp"
+                android:text="More Info" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="178dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitCenter"
+                app:shapeAppearanceOverlay="@style/circular"
+                app:srcCompat="@drawable/kinkakuji_temple" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="156dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="89dp"
+                android:text="1. Kinkakuji Temple"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="345dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="258dp"
+            android:background="@drawable/border" >
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="186dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitCenter"
+                app:shapeAppearanceOverlay="@style/circular"
+                app:srcCompat="@drawable/universal_studios" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="158dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="89dp"
+                android:text="2. Universal Studios Japan"
+                android:textSize="16sp" />
+
+            <Button
+                android:backgroundTint="#aa9a85"
+                android:id="@+id/jp2"
+                android:layout_width="129dp"
+                android:layout_height="37dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="158dp"
+                android:layout_marginTop="77dp"
+                android:layout_marginEnd="54dp"
+                android:layout_marginBottom="20dp"
+                android:text="More Info" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="530dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="71dp"
+            android:background="@drawable/border" >
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="181dp"
+                android:layout_marginBottom="6dp"
+                android:scaleType="fitCenter"
+                app:shapeAppearanceOverlay="@style/circular"
+                app:srcCompat="@drawable/nara_park" />
+
+            <Button
+                android:backgroundTint="#aa9a85"
+                android:id="@+id/jp3"
+                android:layout_width="129dp"
+                android:layout_height="37dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="158dp"
+                android:layout_marginTop="77dp"
+                android:layout_marginEnd="54dp"
+                android:layout_marginBottom="20dp"
+                android:text="More Info" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="153dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="156dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="75dp"
+                android:text="3. Nara Park"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <Button
+            android:backgroundTint="#aa9a85"
+            android:id="@+id/BackToHomeButton"
+            android:layout_width="106dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="290dp"
+            android:layout_marginBottom="686dp"
+            android:text="Back" />
+
+    </RelativeLayout>
+</layout>
